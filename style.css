@@ -1,0 +1,22 @@
+body {
+    background-color: #282c34;
+    color: white;
+}
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    max-width: 1000px;
+}
+.header {
+    background-color: blue;
+    height: 100px;
+}
+.hero {
+    background-color: beige;
+}
+
+.hero-right {
+    width: 400px;
+    height: 400px;
+}
