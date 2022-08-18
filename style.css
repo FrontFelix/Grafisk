@@ -5,18 +5,83 @@ body {
 .wrapper {
     display: block;
     margin: 0 auto;
-    background-color: green;
     max-width: 1000px;
 }
 .header {
-    background-color: blue;
+    background-color: #282c34;
     height: 100px;
 }
 .hero {
-    background-color: beige;
+    height: 630px;
+    background-color: #3c4556;
+}
+.racket-border {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #d0eaf5;
 }
 
 .hero-right {
     width: 400px;
     height: 400px;
+}
+.icon {
+    top: 180px;
+}
+.hero-btn {
+    height: 180px;
+    background-color: #3e527b;
+}
+.hero-btn button {
+    background-color: #282c34;
+}
+
+.rackets {
+    background-color: #3f4e6c;
+}
+.rackets h1 {
+    font-weight: 900;
+    font-size: 60px;
+    color: #282c34;
+}
+.contact {
+    background-color: #90a7d0;
+}
+.contact h1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: #282c34;
+}
+
+.contact-form {
+    background-color: #3f4e6c;
+}
+.contact-form input {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+.contact-form button {
+    background-color: white;
+    color: #3f4e6c;
+    font-size: 40px;
+    font-weight: 900;
+}
+.footer img{
+    background-color: #90a7d0;
+}
+.footer-right h1 {
+    background-color: #90a7d0;
+}
+
+@media (min-width: 760px) {
+    .icon {
+        top: 130px;
+        right: 180px;
+    }
+    .hero {
+        height: 700px;
+        background-color: #3c4556;
+    }
 }
